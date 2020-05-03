@@ -1,0 +1,26 @@
+//Program to use the concept of switch case
+import java.util.Scanner;
+public class Switch {
+    public static void main(String args[])
+    {
+        int a,b,c,choice;
+        Scanner ob=new Scanner(System.in);
+        System.out.println("enter the value of a");
+        a=ob.nextInt();
+        System.out.println("enter the value of b");
+        b=ob.nextInt();
+        System.out.println("Enter Choice");
+        c=ob.nextInt();
+        switch(c)
+        {
+        case 1:System.out.println("sum=" +(a+b));
+                break;
+        case 2:System.out.println("subtraction"+(a-b));
+                break;
+        case 3:System.out.println("multiply"+(a*b));
+                break;
+        case 4:System.out.println("divide"+(a/b));
+        default:
+    }
+    }
+}

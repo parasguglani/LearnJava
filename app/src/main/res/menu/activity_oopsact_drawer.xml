@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Inheritance"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Inheritance" />
+        <item
+            android:id="@+id/Overriding"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Overriding" />
+        <item
+            android:id="@+id/Polymorphism"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Polymorphism" />
+        <item
+            android:id="@+id/Abstraction"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Abstraction" />
+        <item
+            android:id="@+id/Encapsulation"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Encapsulation" />
+        <item
+            android:id="@+id/Interfaces"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Interfaces" />
+        <item
+            android:id="@+id/Packages"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Packages" />
+
+    </group>
+</menu>

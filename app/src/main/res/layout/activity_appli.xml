@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#252525"
+
+    android:layout_height="match_parent"
+    tools:context=".appli">
+
+
+    <ScrollView
+        android:background="#CE151515"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#fff"
+                android:id="@+id/head"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="wrap_content"
+                android:text="Headings"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:layout_conversion_absoluteHeight="34dp"
+                tools:layout_conversion_absoluteWidth="107dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:textColor="#fff"
+                android:id="@+id/data"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                tools:layout_conversion_absoluteHeight="27dp"
+                tools:layout_conversion_absoluteWidth="40dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="58dp" />
+
+            <TextView
+                android:textColor="#fff"
+                android:background="@drawable/data"
+                android:id="@+id/subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="30dp"
+
+                android:textSize="17dp"
+                tools:layout_conversion_absoluteHeight="31dp"
+                tools:layout_conversion_absoluteWidth="98dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <TextView
+                android:textColor="#fff"
+
+                android:id="@+id/head5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                tools:layout_conversion_absoluteHeight="30dp"
+                tools:layout_conversion_absoluteWidth="94dp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="180dp" />
+
+            <TextView
+                android:id="@+id/head6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/data"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                tools:layout_conversion_absoluteHeight="23dp"
+                tools:layout_conversion_absoluteWidth="72dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="227dp" />
+
+            <TextView
+                android:textColor="#fff"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/head7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                tools:layout_conversion_absoluteHeight="30dp"
+                tools:layout_conversion_absoluteWidth="94dp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="378dp" />
+
+            <TextView
+                android:textColor="#fff"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/data"
+                android:id="@+id/head8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:textSize="17dp"
+                tools:layout_conversion_absoluteHeight="23dp"
+                tools:layout_conversion_absoluteWidth="72dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="520dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

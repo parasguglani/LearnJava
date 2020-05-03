@@ -1,0 +1,31 @@
+//Program to understand the concept of method overloading
+class methodoverloadingdemo
+{
+    public void sum()
+    {
+        System.out.println("Method having no Parameters");
+    }
+    public void sum(int a)
+    {
+        System.out.println("Value of a=" +a);
+    }
+    public void data(int b)
+    {
+        System.out.println("Value of b=" +b);
+    }
+    public void sum(int a,int b)
+    {
+        int c=a+b;
+        System.out.println("Value of c by adding a and b=" +c);
+    }
+}
+public class methodoverloadig
+{
+    public static void main(String[] args) {
+      methodoverloadingdemo md=new methodoverloadingdemo();
+      md.sum();
+      md.sum(5);
+      md.data(6);
+      md.sum(5,6);
+    }
+}

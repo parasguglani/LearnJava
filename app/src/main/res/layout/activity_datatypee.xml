@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datatypee">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff252525"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/var1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/bg"
+            android:gravity="center_horizontal"
+            android:text="Headings"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="34dp"
+            tools:layout_conversion_absoluteWidth="107dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/var"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="40dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <TextView
+            android:id="@+id/pri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/data"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeight="31dp"
+            tools:layout_conversion_absoluteWidth="98dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/bg"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:text="Data Type"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/bg"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:text="Description"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/bg"
+                    android:padding="8dip"
+                    android:text="Example"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:text="byte"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/pridatad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/data"
+                    android:layout_weight="1"
+                    android:text="vjvjvjvvjvjvhjhjbhjbhjhjhgjhjhgjhgjh"
+                    android:padding="8dip"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:textSize="18sp"
+                    android:text="byte a = 100, byte b = -50"
+                    android:textAlignment="center"
+                    android:textColor="#fff" />
+
+
+            </TableRow>
+
+        <TableRow>
+
+        <TextView
+            android:background="@drawable/data"
+            android:gravity="center_horizontal"
+            android:padding="8dip"
+            android:text="short"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/shorttdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/data"
+            android:layout_weight="1"
+            android:text="vjvjvjvvjvjvhjhjbhjbhjhjhgjhjhgjhgjh"
+            android:padding="8dip"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/data"
+            android:gravity="center_horizontal"
+            android:padding="8dip"
+            android:textSize="18sp"
+            android:text="short s = 10000, short r = -20000"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+        </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:text="int"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/intsdata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/data"
+                    android:layout_weight="1"
+                    android:text="vjvjvjvvjvjvhjhjbhjbhjhjhgjhjhgjhgjh"
+                    android:padding="8dip"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:textSize="18sp"
+                    android:text="int a = 100000, int b = -200000"
+                    android:textAlignment="center"
+                    android:textColor="#fff" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:text="long"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/longgdata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/data"
+                    android:layout_weight="1"
+                    android:text="vjvjvjvvjvjvhjhjbhjbhjhjhgjhjhgjhgjh"
+                    android:padding="8dip"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:textSize="18sp"
+android:text="long a = 100000L, long b = -200000"                    android:textAlignment="center"
+                    android:textColor="#fff" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:text="float"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ftdata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/data"
+                    android:layout_weight="1"
+                    android:text="vjvjvjvvjvjvhjhjbhjbhjhjhgjhjhgjhgjh"
+                    android:padding="8dip"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:textSize="18sp"
+android:text="float 4.5 float 6.0"                    android:textAlignment="center"
+                    android:textColor="#fff" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:text="double"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/doudata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/data"
+                    android:layout_weight="1"
+                    android:text="vjvjvjvvjvjvhjhjbhjbhjhjhgjhjhgjhgjh"
+                    android:padding="8dip"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:textSize="18sp"
+android:text="double d1 = 123.4"                    android:textAlignment="center"
+                    android:textColor="#fff" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:text="char"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/chdata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/data"
+                    android:layout_weight="1"
+                    android:text="vjvjvjvvjvjvhjhjbhjbhjhjhgjhjhgjhgjh"
+                    android:padding="8dip"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/data"
+                    android:gravity="center_horizontal"
+                    android:padding="8dip"
+                    android:textSize="18sp"
+android:text="char letterA = 'A"                    android:textAlignment="center"
+                    android:textColor="#fff" />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

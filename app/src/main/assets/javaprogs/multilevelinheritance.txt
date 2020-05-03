@@ -1,0 +1,43 @@
+//Program to use the concept of Multilevel Inheritance
+class base1
+{
+    int numa;
+    void baseshow()
+    {
+        System.out.println("value of NumA="+numa);
+    }
+}
+    class derived1 extends base1
+    {
+      int numb;
+      void derivedshow()
+      {
+          System.out.println("value of NumB="+numb);
+      }
+    }
+    class derived2 extends derived1
+    {
+        int numc;
+        void derived2()
+        {
+            System.out.println("value of NumC="+numc);
+        }
+        void product()
+        {
+            System.out.println("Product="+(numa+numb+numc));
+        }
+    }
+public class MultiLevelInheritance
+{
+    public static void main(String[] args)
+    {
+      derived2 ob=new derived2();
+           ob.numa=5;
+           ob.baseshow();
+           ob.numb=10;
+           ob.derivedshow();
+           ob.numc=4;
+           ob.derived2();
+           ob.product();
+    }
+}

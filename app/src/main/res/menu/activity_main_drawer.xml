@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/intro"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Introduction" />
+        <item
+            android:id="@+id/appli"
+
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Applications" />
+        <item
+            android:id="@+id/iden"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Identifiers and Keywords" />
+        <item
+            android:id="@+id/obj"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Object and Class" />
+        <item
+            android:id="@+id/data"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Data Types" />
+        <item
+            android:id="@+id/oper"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Operators" />
+        <item
+            android:id="@+id/dm"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Decision Making" />
+        <item
+            android:id="@+id/loop"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Loops" />
+        <item
+            android:id="@+id/array"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Arrays" />
+        <item
+            android:id="@+id/Exceptions"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Exceptions" />
+
+
+
+    </group>
+</menu>

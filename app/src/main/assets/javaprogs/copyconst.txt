@@ -1,0 +1,37 @@
+//Program to use the concept of copy constructor
+class constructors
+{
+    int a,b;
+ constructors()
+ {
+     a=5;
+     b=2;
+     System.out.println("default constructor");
+ }
+}
+
+  class psb
+  {
+      int x,y;
+     psb(constructors obj)
+ {
+     x=obj.a;
+     y=obj.b;
+ }
+ public void display()
+ {
+     int c;
+     c=x*y;
+     System.out.println("value of c = "+c);
+ }}
+
+public class copyconst
+{
+    public static void main(String[] args)
+    {
+        constructors d=new constructors();
+        psb o=new psb(d);
+        o.display();
+    }
+
+}

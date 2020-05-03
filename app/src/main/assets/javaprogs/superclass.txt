@@ -1,0 +1,45 @@
+class point{
+private int x,y,z;
+point(int x1, int y1, int z1){
+System.out.println("Super class constructor called");
+x=x1;
+y=y1;
+z=z1;
+}
+public int getx(){
+return x;
+}
+public int gety(){
+return y;
+}
+public int getz(){
+return z;
+}
+}
+class sphere extends point{
+    private int radius;
+    sphere(int x1, int y1, int z1, int r)
+    {
+    super(x1, y1, z1);
+    System.out.println("Derived class constructor called");
+    radius=r;
+    }
+public int getradius()
+{
+return radius;
+}
+public double volume()
+{
+return(4*Math.PI*Math.pow(radius,3));
+}
+}
+public class superclass {
+    public static void main(String[] args) {
+        sphere s=new sphere(5,3,4,5);
+        System.out.println("x coordinate="+s.getx());
+        System.out.println("y coordinate="+s.gety());
+        System.out.println("z coordinate="+s.getz());
+        System.out.println("radius is = "+s.getradius());
+        System.out.println("volume of sphere ="+s.volume());
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ff252525"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".hello">
+
+    <io.github.kbiakov.codeview.CodeView
+        android:id="@+id/cc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </io.github.kbiakov.codeview.CodeView>
+
+    <TextView
+        android:textColor="#fff"
+        android:text="Output"
+        android:textAlignment="center"
+        android:background="@drawable/bg"
+        android:padding="8dip"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_horizontal" />
+
+
+    <io.github.kbiakov.codeview.CodeView
+    android:id="@+id/out"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp">
+
+    </io.github.kbiakov.codeview.CodeView>
+
+
+</LinearLayout>

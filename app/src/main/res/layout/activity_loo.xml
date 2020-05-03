@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loo">
+
+    <ScrollView
+        android:background="#ff252525"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/bg"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Sr.No."
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        />
+
+                    <TextView
+                        android:background="@drawable/bg"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Loop Name"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:background="@drawable/bg"
+                        android:padding="8dip"
+                        android:text="Description"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="1"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/data"
+                        android:gravity="right"
+                        android:padding="8dip"
+                        android:text="while"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:textSize="18sp"
+                        android:text="@string/repeats_a_statement_or_group_of_statements_while_a_given_condition_is_true_it_tests_the_condition_before_executing_the_loop_body_n"
+                        android:textAlignment="center"
+                        android:textColor="#fff" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="2"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="for"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Execute a sequence of statements multiple times and abbreviates the code that manages the loop variable"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="do...while"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Like a while statement, except that it tests the condition at the end of the loop body."
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

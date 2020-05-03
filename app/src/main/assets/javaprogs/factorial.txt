@@ -1,0 +1,21 @@
+//Program to find the factorial of a number
+import java.util.Scanner;
+public class factorial
+{
+    public static void main(String args[])
+    {
+        int fact=1,n,i;
+        Scanner ob=new Scanner(System.in);
+        System.out.println("enter the value of n");
+        n=ob.nextInt();
+        for(i=1;i<=n;i++)
+        {
+            fact=fact*i;
+            if(i==5)
+            {
+                break;
+            }
+        }
+         System.out.println("Answer is=" +fact);
+    }
+}

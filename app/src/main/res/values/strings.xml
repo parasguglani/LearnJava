@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LearnJava</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_oopsact">Learn Java</string>
+    <string name="repeats_a_statement_or_group_of_statements_while_a_given_condition_is_true_it_tests_the_condition_before_executing_the_loop_body_n">Repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body.\n</string>
+    <string name="j"><![CDATA[== != > < >= <=]]></string>
+    <string name="amp"><![CDATA[& | ^ ~ << >> >>>>]]></string>
+    <string name="a"><![CDATA[= += -= /= *= %= <<= >>= &= ^= |=]]></string>
+    <string name="hj" />
+</resources>

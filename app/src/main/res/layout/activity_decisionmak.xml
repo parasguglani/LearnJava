@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".decisionmak">
+
+
+
+
+    <ScrollView
+        android:background="#ff252525"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/bg"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Statement"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        />
+
+                    <TextView
+                        android:background="@drawable/bg"
+                        android:gravity="left"
+                        android:padding="8dip"
+                        android:text="Purpose"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="If Statement"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+
+                        android:background="@drawable/data"
+                        android:layout_weight="1"
+                        android:padding="8dip"
+                        android:textSize="18dp"
+                        android:text="An if statement consists of a boolean expression followed by one or more statements."
+                        android:textColor="#fff"
+                        />
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="if...else"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:layout_weight="1"
+                        android:text="An if statement can be followed by an optional else statement, which executes when the boolean expression is false."
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="nested if "
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:layout_weight="1"
+                        android:text="You can use one if or else if statement inside another if or else if statement(s)"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="switch statement"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+
+
+                        android:background="@drawable/data"
+                        android:padding="8dip"
+                        android:layout_weight="1"
+                        android:text="A switch statement allows a variable to be tested for equality against a list of values"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+
+
+
+
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

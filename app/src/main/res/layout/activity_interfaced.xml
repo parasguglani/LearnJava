@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interfaced">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff252525"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Type"
+                        android:textAlignment="center"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:background="@drawable/bg"
+                        android:gravity="left"
+                        android:padding="8dip"
+                        android:text="Description"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dip"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:text="Modeling behavior"
+                        android:textColor="#fff" />
+
+                    <TextView
+
+                        android:layout_weight="1"
+                        android:padding="15dip"
+                        android:background="@drawable/data"
+                        android:text="Interfaces generally describe what a object should do/have/react/manage"
+                        android:textColor="#fff" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Adapting to changing technology"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:padding="15dip"
+                        android:background="@drawable/data"
+                        android:text="Interfaces are also often use to support underlying technology domains or complexity without changing consumer code."
+                        android:textColor="#fff" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Abstraction"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:padding="15dip"
+                        android:text="Sometimes we are just trying to solve a complex technical issue, we want to design components with given responsibilities but we can't provide a concrete implementation so we build an interface depend on it and keep coding abstracting the users of that object to the resolution of the particular problem."
+                        android:textAlignment="center"
+                        android:textColor="#fff" />
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

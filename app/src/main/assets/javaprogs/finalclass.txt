@@ -1,0 +1,23 @@
+//Program to use the final keyword in class
+final class Base10
+{
+    void display()
+    {
+        System.out.println("Base Method called");
+    }
+}
+class derived10 extends Base10
+{
+    void display()
+    {
+        System.out.println("Derived method called");
+    }
+}
+public class finalclassdemo
+{
+    public static void main(String[] args)
+    {
+        derived10 ob=new derived10();
+        ob.display();
+    }
+}

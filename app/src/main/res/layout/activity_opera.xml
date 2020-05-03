@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".opera">
+    <ScrollView
+        android:background="#ff252525"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/bg"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Operator"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        />
+
+                    <TextView
+                        android:background="@drawable/bg"
+                        android:padding="8dip"
+                        android:text="Purpose"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+
+                        android:background="@drawable/bg"
+                        android:padding="8dip"
+                        android:text="Example"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Arithmatic"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="132dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/data"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:padding="8dip"
+                        android:text="Used Maths Fuctions"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:padding="10dip"
+                        android:text="+ - * / % ++ --"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Relational"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Used to compare"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="@string/j"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Bitwise"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+
+                        android:layout_weight="2"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="works on bits"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="@string/amp"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Logical"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+
+                        android:layout_width="149dp"
+                        android:layout_height="84dp"
+                        android:background="@drawable/data"
+                        android:padding="8dip"
+                        android:text="based on multiple conditions"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="&amp;&amp; || !"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Assignment"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="182dp"
+
+                        android:layout_height="83dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="assign a value to a variable"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="@string/a"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="Misc"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="misc data"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/data"
+                        android:gravity="center_horizontal"
+                        android:padding="8dip"
+                        android:text="instanceof,?: , new"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

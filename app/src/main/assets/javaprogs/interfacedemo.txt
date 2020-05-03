@@ -1,0 +1,63 @@
+//Program to use the concept of interface
+interface Shape1
+{
+    double area2();
+    double circumferences1();
+}
+ class Rect4 implements Shape1
+{
+ private int length,breath;
+
+ Rect4(int x,int y)
+ {
+     length=x;
+     breath=y;
+ }
+ public double area2()
+ {
+     double a;
+     a=length*breath;
+     return(a);
+ }
+public double circumferences1()
+ {
+     double cir;
+     cir=2*(length*breath);
+     return(cir);
+ }
+}
+class circ3 implements Shape1
+{
+   public double radius;
+    circ3(double r)
+    {
+        radius=r;
+    }
+    public double area2()
+    {
+        double ar;
+        ar=Math.PI*radius*radius;
+        return(ar);
+    }
+    public double circumferences1()
+    {
+        double ci;
+        ci=2*Math.PI*radius;
+        return(ci);
+    }
+}
+public class InterfaceDemo
+{
+
+    public static void main(String[] args)
+    {
+      Shape1 []s=new Shape1[2];
+      s[0]=new Rect4(10,12);
+      s[1]=new circ3(2.5);
+
+      for(int i=0;i<s.length;i++)
+      {
+          System.out.println(""+s[i].area2());
+           System.out.println(""+s[i].circumferences1());
+      }
+}}

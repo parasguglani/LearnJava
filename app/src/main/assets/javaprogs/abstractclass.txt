@@ -1,0 +1,65 @@
+//Program for the use of abstract class
+abstract class Shape
+{
+    abstract double area();
+    abstract double circumferences();
+}
+ class Rect extends Shape
+{
+ private int length,breath;
+
+ Rect(int x,int y)
+ {
+     length=x;
+     breath=y;
+ }
+ double area()
+ {
+     double a;
+     a=length*breath;
+     return(a);
+ }
+ double circumferences()
+ {
+     double cir;
+     cir=2*(length*breath);
+     return(cir);
+ }
+}
+class circle1 extends Shape
+{
+    double radius;
+    circle1(double r)
+    {
+        radius=r;
+    }
+    double area()
+    {
+        double ar;
+        ar=Math.PI*radius*radius;
+        return(ar);
+    }
+    double circumferences()
+    {
+        double ci;
+        ci=2*Math.PI*radius;
+        return(ci);
+    }
+}
+public class Abstractdemo
+{
+
+    public static void main(String[] args)
+    {
+      Shape s;
+      Rect r=new Rect(10,20);
+      s=r;
+      System.out.println("Area of Rectangle=" +s.area());
+      System.out.println("Circumference=" +s.circumferences());
+
+      circle1 c=new circle1(5);
+      s=c;
+      System.out.println("Area of Rectangle=" +s.area());
+      System.out.println("Circumference=" +s.circumferences());
+    }
+}

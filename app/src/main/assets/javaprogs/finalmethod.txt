@@ -1,0 +1,23 @@
+//Progarm to use the final keyword in class method
+class Base09
+{
+   final void display()
+    {
+        System.out.println("Base Method called");
+    }
+}
+class derived09 extends Base09
+{
+    void display()
+    {
+        System.out.println("Derived method called");
+    }
+}
+public class finalmethoddemo
+{
+    public static void main(String[] args)
+    {
+        derived09 ob=new derived09();
+        ob.display();
+    }
+}

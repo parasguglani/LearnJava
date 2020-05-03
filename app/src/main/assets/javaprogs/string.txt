@@ -1,0 +1,20 @@
+
+public class string
+{
+
+    public static void main(String[] args)
+    {
+      String str1= "welcome";
+      String str2="       dav";
+      String str3="college";
+      System.out.println("Str1.ToUpperCase()="+str1.toUpperCase());
+      System.out.println("str2.ToLowerCase()="+str2.toLowerCase());
+      System.out.println("str2="+str2);
+      System.out.println("str2.trim="+str2.trim());
+      System.out.println("str1.replace('e','C')="+str1.replace('e','C'));
+
+
+
+    }
+
+}

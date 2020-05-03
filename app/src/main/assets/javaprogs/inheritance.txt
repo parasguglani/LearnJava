@@ -1,0 +1,33 @@
+//Program to use the concept of Simple inheritance
+class base4
+{
+    int num1;
+    void baseshow()
+    {
+        System.out.println("first no="+num1);
+    }
+}
+ class derived extends base4
+ {
+     int num2;
+     void derivedshow()
+     {
+         System.out.println("second no="+num2);
+     }
+     void product()
+     {
+         System.out.println("product of two numbers="+(num1*num2));
+     }
+}
+public class SimpleInheritance
+{
+    public static void main(String[] args)
+    {
+           derived ob=new derived();
+           ob.num1=20;
+           ob.baseshow();
+           ob.num2=10;
+           ob.derivedshow();
+           ob.product();
+    }
+}

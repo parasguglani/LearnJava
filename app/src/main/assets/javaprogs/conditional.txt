@@ -1,0 +1,10 @@
+//Program to use the concept of Conditional operator
+public class conditional
+{
+  public static void main(String args[])
+  {
+      int a=10,b=20,c=0;
+      c=(a>b) ? a:b;
+      System.out.println("Greatest no is=" +c);
+  }
+}

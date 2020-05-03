@@ -1,0 +1,25 @@
+//Program to use the concept of exception handling
+import java.util.Scanner;
+public class ExceptionHandling
+{
+    public static void main(String[] args)
+    {
+        int x,y,z;
+        try
+        {
+            Scanner ob=new Scanner(System.in);
+            System.out.println("Enter the value of x=");
+            x=ob.nextInt();
+            System.out.println("Enter the value of y=");
+            y=ob.nextInt();
+            z=x/y;
+        System.out.println("Value of z is="+z);
+        }
+        catch(ArithmeticException e)
+                {
+                     System.out.println("Denominator cannot be zero");
+                }
+
+    }
+
+}

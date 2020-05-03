@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.passionategeekz.learnjava">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".hello"></activity>
+        <activity android:name=".packageg" />
+        <activity android:name=".switchstatement"/>
+        <activity android:name=".superclass"/>
+        <activity android:name=".operator"/>
+        <activity android:name=".addnumber" />
+        <activity android:name=".arithmatic"/>
+        <activity android:name=".array"/>
+        <activity android:name=".conditional"/>
+        <activity android:name=".constructor"/>
+        <activity android:name=".copyconst"/>
+        <activity android:name=".exception"/>
+        <activity android:name=".factorial"/>
+        <activity android:name=".finalclass"/>
+        <activity android:name=".finalmethod"/>
+        <activity android:name=".interfacedemo"/>
+        <activity android:name=".multilevelinheritance"/>
+        <activity android:name=".methodoverloading"/>
+<activity android:name=".helloworld"/>
+        <activity android:name=".interfaced" />
+        <activity android:name=".encap" />
+        <activity android:name=".abstraction" />
+        <activity android:name=".polymor" />
+        <activity android:name=".overriding" />
+        <activity android:name=".Inheritance" />
+        <activity android:name=".excep" />
+        <activity android:name=".arrayy" />
+        <activity android:name=".loo" />
+        <activity android:name=".decisionmak" />
+        <activity android:name=".opera" />
+        <activity android:name=".datatypee" />
+        <activity android:name=".abstractclass"/>
+        <activity android:name=".objclas" />
+        <activity android:name=".idenkey" />
+        <activity android:name=".reverse"/>
+        <activity android:name=".string"/>
+        <activity android:name=".appli" />
+        <activity android:name=".programs" />
+        <activity android:name=".prime"/>
+        <activity
+            android:name=".oopsact"
+            android:label="@string/title_activity_oopsact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".helloact" />
+        <activity
+            android:name=".homescreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
